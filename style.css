@@ -1,0 +1,500 @@
+
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+
+
+
+
+/* MY CODE */
+
+
+
+* {
+  text-decoration: none;
+}
+
+main {
+  padding-top: 100px;
+}
+
+
+body {
+  background: #AFAFAF;
+}
+
+
+header {
+  position: fixed;
+  top: 0;
+  right: 0px;
+  left: 0;
+  background-color: #AFAFAF;
+  width: 100%;
+  height: 100px;
+}
+
+header .header-logo {
+  font-family: 'Texturina', serif;
+  font-size: 24px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: rgb(22, 31, 40);
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px 0;
+}
+
+header nav ul {
+  display: block;
+  margin: 0 auto;
+  width: fit-content;
+}
+
+header nav ul li {
+  display: inline-block;
+  float: left;
+  padding: 0 16px;
+}
+
+header nav ul li a {
+  font-family: 'Texturina', serif;
+  font-size: 16px;
+  color: rgb(22, 31, 40);
+}
+
+
+/* DESKTOP VERSION */
+
+@media only screen and (min-width: 1000px) {
+  header .header-logo {
+    margin: 25px 15px;
+    text-align: left;
+    line-height: 15px;
+    border-right: 1px solid rgb(22, 31, 40);
+    float: left;
+    padding-right: 10px;
+  }
+
+  header nav ul {
+    margin: 20px 0px 0px 20px;
+    float: left;
+  }
+
+  header nav ul li a {
+    line-height: 60px;
+  }
+}
+
+
+  .index-banner {
+    width: 100%;
+    height: calc(100vh - 100px);
+    background-image: url("img/code.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: table;
+  }
+
+  .vertical {
+    display: table-cell;
+    vertical-align: middle;
+  }
+
+  .index-banner h2 {
+    font-family: 'Texturina', serif;
+    font-size: 50px;
+    line-height: 70px;
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+    text-shadow: 2px 2px 8px #111;
+  }
+
+  .index-banner h1 {
+    font-family: 'Texturina', serif;
+    font-size: 20px;
+    font-weight: 100;
+    font-style: italic;
+    line-height: 40px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 2px 2px 8px #111;
+  }
+
+  .index-links div {
+    margin: 16px 16px 0;
+    width: calc(100% - 32px);
+    height: 100px;
+    background-color: #fff;
+  }
+
+  .index-links div h3 {
+    font-family: 'Texturina', serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 100px;
+    color: #111;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  @media only screen and (min-width: 1000px) {
+    .wrapper {
+      width: 1000px;
+      margin: 0 auto;
+    }
+    .index-banner {
+      width: 100%;
+      height: 450px;
+    }
+    .index-links {
+      padding-bottom: 20px;
+      overflow: hidden;
+    }
+    .index-links div {
+      margin: 20px 10px 0;
+      height: 230px;
+      background-color: #f3f3f3;
+      float: left;
+    }
+    .boxlink-square {
+      width: calc(25% - 20px) !important;
+    }
+    .boxlink-2 {
+      width: calc(50% - 20px) !important;
+    }
+    .index-links div h3 {
+      line-height: 230px;
+    }
+  }
+
+
+/* ABOUT ME */
+
+  .about-me h2 {
+    font-family: 'Texturina', serif;
+    font-size: 25px;
+    font-weight: 400;
+    color: #0F0F10;
+    text-transform: uppercase;
+    padding: 20px 20px;
+
+  }
+
+  .about-me p {
+    font-family: 'Texturina', serif;
+    font-size: 15px;
+    font-style: oblique;
+    font-weight: 200;
+    line-height: 1.5;
+    color: #0F0F10;
+    text-align: justify;
+    text-transform: capitalize;
+    padding-bottom: 10px;
+
+  }
+
+
+
+
+  /* GALLERY */
+
+  .project-links {
+    overflow-x: hidden;
+    margin-bottom: 20px;
+  }
+
+  .project-links h2 {
+    font-family: 'Texturina', serif;
+    font-size: 25px;
+    font-weight: 400;
+    color: #0F0F10;
+    text-transform: uppercase;
+    padding: 20px 20px;
+  }
+
+  .project-links .project-link {
+    float: left;
+    width: 230px;
+    margin: 20px 10px 0;
+    height: 240px;
+    background-color: #fff;
+  }
+
+  .project-links .project-link img {
+    float: center;
+    width: 100%;
+    height: 100%;
+  }
+
+  .project-links .project-link img:hover {
+    transform: scale(1.1);
+  }
+
+
+  .project-links .project-link p {
+    padding-top: 45%;
+    font-family: 'Texturina', serif;
+    font-size: 18px;
+    font-weight: 300;
+    color: #111;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+/* CONTACT */
+
+.contact-1 h2 {
+  font-family: 'Texturina', serif;
+  font-size: 25px;
+  font-weight: 400;
+  color: #0F0F10;
+  text-transform: uppercase;
+  padding: 20px 20px;
+
+}
+
+
+
+/* FOOTER */
+
+  footer {
+    width: calc(100% - 80px);
+    padding: 40px 40px;
+    margin-top: 20px;
+    background-color: #343641;
+    overflow: hidden;
+  }
+
+  footer ul {
+    width: fit-content;
+    float: left;
+    padding-left: 10px;
+    line-height: 20px;
+  }
+
+  footer ul li {
+    display: block;
+    list-style: none;
+  }
+
+  footer ul li a{
+    font-size: 14px;
+    font-family: 'Texturina', serif;
+    color: #fff;
+    line-height: 50px;
+  }
+
+  .footer-sm {
+    width: 50px;
+    float: right;
+  }
+
+  .footer-sm img {
+    width: 100%;
+    margin-bottom: 10px;
+  }
