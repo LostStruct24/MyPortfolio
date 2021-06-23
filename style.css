@@ -458,6 +458,11 @@ header nav ul li a {
 
 }
 
+.contactP {
+  font-family: 'Texturina', serif;
+  font-size: 18px;
+}
+
 
 
 /* FOOTER */
@@ -498,3 +503,4 @@ header nav ul li a {
     width: 100%;
     margin-bottom: 10px;
   }
+
